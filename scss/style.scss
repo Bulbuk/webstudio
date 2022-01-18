@@ -1,0 +1,104 @@
+@import "variables";
+@import "mixins";
+@keyframes header {
+    0%{
+        top: -30px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.homepage{
+    width: 80%;
+    margin: 0 auto;
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        animation-name: header;
+        animation-duration: 2s;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background: white;
+        padding-top: 10px;
+        nav{
+           display: grid;
+           grid-template-columns: auto auto auto auto;
+           grid-gap: 10px;
+           
+        } 
+    }
+}
+.nav_link{
+    text-decoration: none;
+    font-family: inter;
+    font-size: 14px;
+    color: grey;
+    font-weight: bold;
+}
+.banner{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+}
+.banner_info{
+    padding-top: 60px;
+    h1{
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    }
+    p{
+        font-size: 18px;
+        font-family: Inter;
+    }
+    a{
+        background: orange;
+        color: white;
+        border: 3px solid orange;
+        border-radius: 10px;
+        width: 160px;
+        height: 45px;
+        padding: 5px;
+    }
+}
+footer{
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(218, 241, 233, 0.51);
+    .footer_info{
+        display: grid;
+        grid-template-columns: auto auto;
+        .footer_nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .footer_nav_item{
+                display: grid;
+                grid-template-rows: auto 1fr 1fr 1fr 1fr;
+                width: 150px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.footer_social{
+   width: 70%;
+   margin: 30px auto;
+   padding: 20px 100px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr auto;
+   border-top: 1px solid black;
+   
+   
+}
+.footer_logo{
+    p{
+        width: 100px;
+    }
+}
+p{
+    font-family: Inter;
+}

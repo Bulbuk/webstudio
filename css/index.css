@@ -1,0 +1,15 @@
+.web_studio_history_info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-column-gap: 30px;
+}
+
+.history_diferent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+/*# sourceMappingURL=index.css.map */

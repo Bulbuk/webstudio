@@ -1,0 +1,144 @@
+.scrum {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+}
+
+.scrum_info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 200px;
+}
+
+.scrum_info div {
+  text-align: center;
+  border-radius: 20%;
+  padding: 20px 0;
+}
+
+.scrum_info div p {
+  font-weight: bold;
+}
+
+.scrum_info div ul {
+  list-style: none;
+  text-align: center;
+}
+
+.scrum_info div button {
+  background: orange;
+  border-radius: 10px;
+  padding: 5 40px;
+}
+
+.concept_scrum {
+  text-align: center;
+}
+
+.parts {
+  background: #DAF1E982;
+}
+
+.practise {
+  background: #FFE7675C;
+}
+
+.card_of_history {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 10px 5px 5px lightgrey;
+          box-shadow: 10px 5px 5px lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+.card_of_history .logo p {
+  width: 56px;
+}
+
+.kanban {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+}
+
+.scrum_or_kanban {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto 1fr;
+      grid-template-columns: 1fr auto 1fr;
+  grid-gap: 20px;
+}
+
+.scrum_or_kanban .scrum_list {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.scrum_or_kanban .scrum_list .scrum_list_info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.scrum_or_kanban .scrum_list .scrum_list_info .scrum_list_items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 10px;
+}
+
+.scrum_or_kanban .scrum_list .scrum_list_top {
+  position: relative;
+}
+
+.scrum_or_kanban .scrum_list .scrum_list_top p {
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0px;
+  left: 32%;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+p {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+}
+/*# sourceMappingURL=index3.css.map */

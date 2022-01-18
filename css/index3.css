@@ -1,0 +1,48 @@
+.scrum {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+}
+
+.scrum_info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 200px;
+}
+
+.scrum_info div {
+  text-align: center;
+  border-radius: 20%;
+  padding: 20px 0;
+}
+
+.scrum_info div p {
+  font-weight: bold;
+}
+
+.scrum_info div ul {
+  list-style: none;
+  text-align: center;
+}
+
+.scrum_info div button {
+  background: orange;
+  border-radius: 10px;
+  padding: 5 40px;
+}
+
+.concept_scrum {
+  text-align: center;
+}
+
+.parts {
+  background: #DAF1E982;
+}
+
+.practise {
+  background: #FFE7675C;
+}
+/*# sourceMappingURL=index3.css.map */

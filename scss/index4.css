@@ -1,0 +1,105 @@
+.scrum_or_kanban {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+}
+
+h4 {
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ads {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr 1fr 1fr;
+      grid-template-columns: auto 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 60%;
+  padding: 30px 0;
+  margin: 0 auto;
+  height: 20%;
+}
+
+.ads .top1 {
+  background: #093B5E;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 30px 10px;
+}
+
+.ads .top2 {
+  background: #178A8D;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 30px 10px;
+}
+
+.ads .top3 {
+  background: #63C0C7;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 30px 10px;
+}
+
+.ads .trello {
+  background: #FFDA68;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.ads .jira {
+  background: #FFDA68;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.ads .bitrix24 {
+  background: #FFDA68;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.ads .slack {
+  background: #FFDA68;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.ads .answer1 {
+  background: #3a2a928f;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.ads .answer2 {
+  background: #2a60928f;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 25px;
+}
+
+.ads .answer3 {
+  background: #4a7a728f;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 25px;
+}
+/*# sourceMappingURL=index4.css.map */
